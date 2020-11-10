@@ -9,11 +9,11 @@ header h1{color: #fff;}
 .header-container{max-width: 80%;margin: auto;display: flex;justify-content: space-between;}
 .header-container nav ul{display: flex;margin-top: 15px;}
 .header-container nav ul li a{color:#fff;font-size: 18px;margin-left: 30px;font-weight:bold;}
-.header-container nav ul li a:hover{padding-bottom: 10px;border-bottom: 2px  solid #ccc ;}
+.header-container nav ul li a:hover{padding-bottom: 10px;border-bottom: 2px  solid  #FFBA10;}
 
 /*hero*/
 
-.hero{color: #fff;max-width: 70%;display: flex;justify-content: space-between;margin: auto;}
+.hero{color: #fff;max-width: 80%;display: flex;justify-content: space-between;margin: auto;}
 .hero-container{max-width: 55%;margin: auto;margin-top: 150px;}
 .hero-container h2{font-size:30px;line-height: 45px;}
 .hero-container h3{font-size: 18px;font-weight: 100;color:#CECECE;}
@@ -22,8 +22,8 @@ header h1{color: #fff;}
 /*servico*/
 
 .servicos{width: 100%;margin: auto;text-align: center;padding-top: 80px;}
-.servicos h3{font-size: 30px;color: #fff;padding-bottom: 50px;}
-.servicos h3::after{content: '-';background-color: #FFBA10; width: 20px; height: 20px;}
+.servicos h3{font-size: 30px;color: #28102D ;padding-bottom: 50px;}
+.servicos h3::after{content: 'BEM-VINDO AO MEU PORTFÓLIO';background-color: #FFBA10; width: 20px; height: 20px;}
 
 .box{width: 80%;margin: 0 auto; background-color: #CECECE;display: flex; justify-content: space-between;padding: 40px 30px;margin-bottom: 50px;}
 .box-container{width: 25%;padding: 0px 15px;}
@@ -79,10 +79,53 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
 
 /*sobre*/
 
-.sobre{margin:50px 0px 50px 0px ;background-color: #CECECE;width:80%;margin: 50px  auto;}
+.sobre{margin:50px 0px 50px 0px ;width:80%;margin: 50px  auto;}
 
 .sobre .container-sobre{display: flex;justify-content: space-between;}
 
 .container-sobre img{ padding: 50px 60px;}
 
-.container-text {width: 350px;}
+.sobre-text{margin-top: 100px;color: #fff;}
+
+.sobre-text h2::after{content: 'Eu sou um criativo Web Designer e Desenvolvedor';background-color: #FFBA10; width: 20px; height: 20px;color: #28102D ;}
+
+.sobre-text p{margin-top: 50px;margin-bottom: 40px;}
+
+.sobre-text a{background-color:#9c27b0; color: #fff;padding: 8px 25px;margin-top: 50px;}
+
+.sobre-text a:hover{background-color:#0d000f; transition: 2s; }
+
+/*footer*/
+.rodape{width: 100%;
+    background-color: #000000 ;
+    color: #fff;
+    margin: 0 auto;}
+    
+    .endereco h4{width: 58px;
+        border-bottom: 3px solid #FFBA10 ;}
+    
+    .divisao{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px 10px;
+        max-width: 1000px;}
+    
+    .divisao-interna{display: flex;}
+    
+    .redesocial h4{width: 102px;
+        border-bottom: 3px solid #FFBA10;}
+    
+    .divisao-interna p{ padding-right: 20px;}
+    
+    .redesocial ul{display: flex;}
+    
+    .redesocial ul li a img{ padding-right: 10px;}
+    
+    .rodape p{text-align: center;
+       padding-bottom: 20px;
+       font-size: 0.8em;}
+    
+       @media(max-width:700px){.divisao{flex-direction: column;}
+       .endereco{margin: 0 auto;}
+       .redesocial{margin: 0 auto;}}
