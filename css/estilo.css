@@ -11,6 +11,10 @@ header h1{color: #fff;}
 .header-container nav ul li a{color:#fff;font-size: 18px;margin-left: 30px;font-weight:bold;}
 .header-container nav ul li a:hover{padding-bottom: 10px;border-bottom: 2px  solid  #FFBA10;}
 
+@media (max-width:750px){
+    .header-container{flex-direction: column;}
+}
+
 /*hero*/
 
 .hero{color: #fff;max-width: 80%;display: flex;justify-content: space-between;margin: auto;}
@@ -19,10 +23,16 @@ header h1{color: #fff;}
 .hero-container h3{font-size: 18px;font-weight: 100;color:#CECECE;}
 .hero-img{margin-top: 100px;}
 
+@media(max-width:850px){
+    .hero-img{display: none;}
+    .hero-container{max-width:100%;margin-top: 50px;}
+}
 /*servico*/
 
 .servicos{width: 100%;margin: auto;text-align: center;padding-top: 80px;}
+
 .servicos h3{font-size: 30px;color: #28102D ;padding-bottom: 50px;}
+
 .servicos h3::after{content: 'BEM-VINDO AO MEU PORTFÓLIO';background-color: #FFBA10; width: 20px; height: 20px;}
 
 .box{width: 80%;margin: 0 auto; background-color: #CECECE;display: flex; justify-content: space-between;padding: 40px 30px;margin-bottom: 50px;}
@@ -77,6 +87,13 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
 
 .retangulo:hover span{width: 1000px;height: 1000px;}
 
+
+@media (max-width:750px){
+    .servicos h3{width: 80%;margin: 0 auto;}
+    .box{flex-direction: column;}
+    .box-container{width: 80%; margin: 0 auto;padding-bottom: 20px;}
+    .retangulo{width: 80%;margin: 0 auto;margin-bottom: 20px;}
+}
 /*sobre*/
 
 .sobre{margin:50px 0px 50px 0px ;width:80%;margin: 50px  auto;}
@@ -95,6 +112,11 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
 
 .sobre-text a:hover{background-color:#0d000f; transition: 2s; }
 
+@media(max-width:750px){
+    .container-sobre{flex-direction: column;}
+    .sobre-text{margin-top: 20px;}
+    .sobre-img img{width: 100%;}
+}
 /*footer*/
 .rodape{width: 100%;
     background-color: #000000 ;
@@ -113,7 +135,7 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
     
     .divisao-interna{display: flex;}
     
-    .redesocial h4{width: 102px;
+    .redesocial h4{width: 112px;
         border-bottom: 3px solid #FFBA10;}
     
     .divisao-interna p{ padding-right: 20px;}
@@ -126,6 +148,6 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
        padding-bottom: 20px;
        font-size: 0.8em;}
     
-       @media(max-width:700px){.divisao{flex-direction: column;}
+    @media(max-width:700px){.divisao{flex-direction: column;}
        .endereco{margin: 0 auto;}
        .redesocial{margin: 0 auto;}}
