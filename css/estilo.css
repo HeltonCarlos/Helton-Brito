@@ -79,6 +79,10 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
 
 /*sobre*/
 
-.sobre{margin:50px 0px 50px 0px ;background-color: #CECECE;width: 100%;}
+.sobre{margin:50px 0px 50px 0px ;background-color: #CECECE;width:80%;margin: 50px  auto;}
 
+.sobre .container-sobre{display: flex;justify-content: space-between;}
 
+.container-sobre img{ padding: 50px 60px;}
+
+.container-text {width: 350px;}
