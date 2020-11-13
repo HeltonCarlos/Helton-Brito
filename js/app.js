@@ -11,3 +11,10 @@ $(document).ready(function(){
 })
 
 });
+
+
+$(document).ready(function(){
+   $('.menu').click(function(){
+       $('.mobile-menu').slideToggle();
+   })
+})
