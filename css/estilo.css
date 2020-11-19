@@ -163,3 +163,23 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
     @media(max-width:700px){.divisao{flex-direction: column;}
        .endereco{margin: 0 auto;}
        .redesocial{margin: 0 auto;}}
+
+/*animação*/
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"]{
+transform: translate3d(-50px,0,0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(50px,0,0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px,0px,0px);
+}
