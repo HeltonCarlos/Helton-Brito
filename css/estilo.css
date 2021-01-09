@@ -4,9 +4,14 @@ li{list-style: none;}
 
 body{background-color:#28102D ;font-family: 'Mulish', sans-serif;}
 
-header{width: 100%;margin-top: 40px;}
+header{width: 100%;padding-top: 40px;
+background-image: url('../img/backg.png') ;
+height: 90vh;}
+
 header h1{color: #fff;}
+
 header h1:hover{translate: 4s;color:rgb(170, 104, 231);}
+
 .header-container{max-width: 80%;margin: auto;display: flex;justify-content: space-between;}
 .header-container nav ul{display: flex;margin-top: 15px;}
 .header-container nav ul li a{color:#fff;font-size: 18px;margin-left: 30px;font-weight:bold;}
@@ -15,6 +20,7 @@ header h1:hover{translate: 4s;color:rgb(170, 104, 231);}
 .mobile-menu ,  .menu{display: none;}
 
 @media (max-width:750px){
+    header{height: 80vh;}
     .header-container{display: flex;flex-direction: column;}
     .menu-flex{display: flex; justify-content: space-between;}
     .desk-menu{display: none;}
@@ -30,8 +36,9 @@ header h1:hover{translate: 4s;color:rgb(170, 104, 231);}
 
 /*hero*/
 
-.hero{color: #fff;max-width: 80%;display: flex;justify-content: space-between;margin: auto;}
-.hero-container{max-width: 55%;margin: auto;margin-top: 150px;}
+.hero{color: #fff;max-width: 80%;display: flex;align-items: center;
+    justify-content: space-between;margin: auto;}
+.hero-container{max-width: 55%;margin: auto;}
 .hero-container h2{font-size:30px;line-height: 45px;}
 .hero-container h3{font-size: 18px;font-weight: 100;color:#CECECE;}
 .hero-img{margin-top: 100px;}

@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
  $('.retangulo').on('mouseenter',function(e){
      x=e.pageX - $(this).offset().left,
@@ -13,9 +15,12 @@ $(document).ready(function(){
 });
 
 
+
 $(document).ready(function(){
    $('.menu').click(function(){
        $('.mobile-menu').slideToggle();
+       $('header').css('height','100vh')
    })
 });
+
 
