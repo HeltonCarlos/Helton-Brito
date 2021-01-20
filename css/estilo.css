@@ -4,9 +4,9 @@ li{list-style: none;}
 
 body{background-color:#28102D ;font-family: 'Mulish', sans-serif;}
 
-header{width: 100%;padding-top: 40px;
+header{width: 100%;padding-top: 20px;
 background-image: url('../img/backg.png') ;
-height: 90vh;}
+height: 80vh;}
 
 header h1{color: #fff;}
 
@@ -20,7 +20,7 @@ header h1:hover{translate: 4s;color:rgb(170, 104, 231);}
 .mobile-menu ,  .menu{display: none;}
 
 @media (max-width:750px){
-    header{height: 70vh;}
+    header{height: 100vh;}
     .header-container{display: flex;flex-direction: column;}
     .menu-flex{display: flex; justify-content: space-between;}
     .desk-menu{display: none;}
@@ -37,10 +37,12 @@ header h1:hover{translate: 4s;color:rgb(170, 104, 231);}
 
 .hero{color: #fff;max-width: 80%;display: flex;align-items: center;
     justify-content: space-between;margin: auto;}
-.hero-container{max-width: 55%;margin: auto;}
-.hero-container h2{font-size:30px;line-height: 45px;}
-.hero-container h3{font-size: 18px;font-weight: 100;color:#CECECE;}
-.hero-img{margin-top: 100px;}
+.hero-container{max-width: 55%;margin: 70px auto;text-align: center;}
+.hero-container h2{font-size:30px;line-height: 55px;}
+.hero-container h3{font-size: 25px;font-weight: 100;color:#CECECE;padding-bottom: 30px;}
+.hero-container a{padding: 8px 50px;background-color: #FFBA10;font-weight: bolder;color: #28102D;}
+.hero-container a:hover{background-color: #9c27b0;transition: 2s;}
+
 
 @media(max-width:850px){
     .hero-img{display: none;}

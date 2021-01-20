@@ -19,7 +19,7 @@ $(document).ready(function(){
 $(document).ready(function(){
    $('.menu').click(function(){
        $('.mobile-menu').slideToggle();
-       $('header').css('height','100vh')
+      
    })
 });
 
