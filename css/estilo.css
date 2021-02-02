@@ -8,8 +8,6 @@ header{width: 100%;padding-top: 20px;
 background-image: url('../img/backg.png') ;
 height: 80vh;}
 
-header h1{color: #fff;}
-
 .header-container{max-width: 80%;margin: auto;display: flex;justify-content: space-between;}
 .header-container nav ul{display: flex;margin-top: 15px;}
 .header-container nav ul li a{color:#fff;font-size: 18px;margin-left: 30px;font-weight:bold;}
