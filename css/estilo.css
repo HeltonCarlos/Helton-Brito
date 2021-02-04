@@ -40,6 +40,7 @@ header{width: 100%;padding: 20px 0px;background-color: #28102D;}
 .hero{color: #fff;display: flex;align-items: center;background-image: url('../img/backg.png') ;height: 80vh;
 justify-content: space-between;margin: auto;}
 .hero-container{max-width: 80%;margin: 10px auto;text-align: center;}
+.hero-container h3:first-child{padding-bottom: 10px;}
 .hero-container h2{font-size:30px;line-height: 55px;}
 .hero-container h3{font-size: 25px;font-weight: 100;color:#CECECE;padding-bottom: 50px;}
 .hero-container a{padding: 8px 50px;background-color: #FFBA10;font-weight: bolder;color: #28102D;}
