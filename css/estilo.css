@@ -59,6 +59,8 @@ justify-content: space-between;margin: auto;}
 
 .servicos h3::after{content: 'BEM-VINDO AO MEU PORTFÓLIO';background-color: #FFBA10; width: 20px; height: 20px;}
 
+.servicos-front h3::after{content: 'FRONT-END';background-color: #FFBA10; width: 20px; height: 20px;}
+
 .servico h3::after{content: 'UX-UI DESIGNER';background-color: #FFBA10; width: 20px; height: 20px;}
 
 .box{width: 80%;margin: 0 auto; background-color: #CECECE;display: flex; justify-content: space-between;padding: 40px 30px;margin-bottom: 50px;}
