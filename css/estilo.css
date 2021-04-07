@@ -4,15 +4,15 @@ li{list-style: none;}
 
 body{font-family: 'Mulish', sans-serif;}
 
-header{width: 100%;padding: 20px 0px;background-color: #28102D;}
+header{width: 100%;padding: 20px 0px;background-color: #000000 ;}
 
 .header-container{max-width: 80%;margin:0 auto;display: flex;justify-content: space-between;align-items: center;}
 
 .header-container nav ul{display: flex;}
 
-.header-container nav ul li a{color:#fff;font-size: 18px;margin-left: 30px;font-weight:bold;}
+.header-container nav ul li a{color: #fff;;font-size: 15px;margin-left: 30px;font-weight:bold;}
 
-.header-container nav ul li a:hover{padding-bottom: 10px;border-bottom: 2px  solid  #FFBA10;}
+.header-container nav ul li a:hover{padding-bottom: 10px;border-bottom: 3px  solid  #FFBA10;}
 
 .mobile-menu ,  .menu{display: none;}
 
@@ -28,7 +28,7 @@ header{width: 100%;padding: 20px 0px;background-color: #28102D;}
     .menu img{height: 20px;}
 
     .mobile-menu{
-    width: 100%;background-color: rgb(17, 3, 13);}
+    width: 100%;background-color:#000000 ;}
 
     .mobile-menu ul{flex-direction: column;text-align: center;}
 
@@ -37,25 +37,26 @@ header{width: 100%;padding: 20px 0px;background-color: #28102D;}
 
 /*hero*/
 
-.hero{color: #fff;display: flex;align-items: center;background-image: url('../img/backg.png') ;height: 80vh;
+.hero{color: #000000;display: flex;align-items: center;height: 80vh;
 justify-content: space-between;margin: auto;}
-.hero-container{max-width: 80%;margin: 10px auto;text-align: center;}
+.hero-container{max-width: 90%;margin: 0px auto;text-align: left;display: flex;align-items: center;}
 .hero-container h3:first-child{padding-bottom: 5px;}
 .hero-container h2{font-size:30px;line-height: 40px;}
-.hero-container h3{font-size: 25px;font-weight: 100;color:#CECECE;padding-bottom: 30px;}
-.hero-container a{padding: 8px 50px;background-image:  linear-gradient(to right, rgb(255, 126, 6) , #FFBA10);font-weight: bolder;color: #28102D;border-radius: 8px;box-shadow: 0 0 1em rgb(255, 0, 212);}
-.hero-container a:hover{color: #ccc;background-image:  linear-gradient(to right, rgb(89, 4, 200) , #62079e);}
+.hero-container h3{font-size: 22px;font-weight: 100;color:#000000;padding-bottom: 15px;padding-right: 80px;}
+
 
 @media(max-width:850px){
-    .hero-img{display: none;}
-    .hero-container{max-width:80%;}
-    .hero-container h3{padding-bottom: 25px}
+    .desenho{display: none;}
+    .hero-container .black-rede{margin-left: 100px;}
+    .hero-container{max-width:80%;text-align: center;}
+    .hero-container h2{font-size:28px;}
+    .hero-container h3{padding-right: 0px;font-size:20px;}
 }
 /*servico*/
 
 .servicos{width: 100%;margin: auto;text-align: center;padding-top: 80px;}
 
-.servicos h3{font-size: 30px;color: #28102D ;padding-bottom: 50px;}
+.servicos h3{font-size: 30px;color: #000000;padding-bottom: 50px;}
 
 .servicos h3::after{content: 'BEM-VINDO AO MEU PORTFÓLIO';background-color: #FFBA10; width: 20px; height: 20px;}
 
@@ -71,7 +72,7 @@ justify-content: space-between;margin: auto;}
 .servicos-container{max-width: 80%;padding-top: 20px;display: flex; justify-content: space-between;margin: auto;flex-wrap: wrap;}
 
 .retangulo{position: relative;
-width: 250px;height: 380px;margin:5px;overflow: hidden;}
+width: 230px;height: 350px;margin:2px;overflow: hidden;}
 
 .retangulo .imgbox {
     position: absolute;
@@ -111,7 +112,7 @@ width: 250px;height: 380px;margin:5px;overflow: hidden;}
 
 .retangulo span{position: absolute;transform: translate(-50%,-50%);
 display:block;width: 0px;height: 0px;border-radius: 50%;
-opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5s;}
+opacity: 0.95;background: #000000;z-index: 1;transition:  width 0.5s, height 0.5s;}
 
 .retangulo:hover span{width: 1000px;height: 1000px;}
 
@@ -124,30 +125,31 @@ opacity: 0.95;background: #9c27b0;z-index: 1;transition:  width 0.5s, height 0.5
 }
 /*sobre*/
 
-.sobre{margin:50px 0px 50px 0px ;width:80%;margin: 50px  auto;}
+.sobre{margin:50px 0px 50px 0px ;width:80%;margin: 0px  auto;margin-bottom: 50px;}
 
-.sobre .container-sobre{display: flex;justify-content: space-between;}
+.sobre .container-sobre{display: flex;justify-content: space-between;align-items: center;}
 
-.container-sobre img{ padding: 50px 60px;}
+.container-sobre img{ padding: 70px 60px;border-radius: 500px;margin-top: 50px;}
 
 .sobre-text{margin-top: 100px;color: #fff;}
 
-.sobre-text h2::after{content: 'Eu sou um criativo Web Designer e Desenvolvedor';background-color: #FFBA10; width: 20px; height: 20px;color: #28102D ;}
+.sobre-text h2::after{content: 'Eu sou um criativo Web Designer e Desenvolvedor';background-color: #FFBA10; width: 20px; height: 20px;color: #000000 ;}
 
 .sobre-text p{margin-top: 50px;margin-bottom: 40px;color: #28102D;font-size: 20px;}
 
-.sobre-text a{background-color:#9c27b0; color: #fff;padding: 8px 25px;margin-top: 50px;box-shadow: 0 0 1em rgb(255, 0, 212);border-radius: 5px;}
+.sobre-text a{background-color:#000000; color: #fff;padding: 8px 25px;box-shadow: 0 0 0.5em rgb(46, 46, 46);border-radius: 5px;}
 
-.sobre-text a:hover{background-color:#0d000f; transition: 2s; }
+.sobre-text a:hover{color:#FFBA10;font-weight: 700; }
 
 @media(max-width:750px){
     .container-sobre{flex-direction: column;}
     .sobre-text{margin-top: 20px;text-align: center;}
-    .sobre-img img{width: 100%;}
-}
+    .sobre-img img{width: 100%;margin-top: 0px;}}
+
+
 /*footer*/
 .rodape{width: 100%;
-    background-color: rgb(17, 3, 13);
+    background-color: rgb(0, 0, 0);
     color: #fff;
     margin: 0 auto;}
     
