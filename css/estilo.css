@@ -43,15 +43,16 @@ justify-content: space-between;margin: auto;background-image: url('../img/capa-h
 .hero-container h3:first-child{padding-bottom: 5px;}
 .hero-container h2{font-size:30px;line-height: 40px;}
 .hero-container h3{font-size: 22px;font-weight: 100;padding-bottom: 15px;padding-right: 80px;}
+.black-rede ul{display: flex;}
+.black-rede ul li a img{ padding-right: 10px;}
+.black-rede ul li a img:hover{transform: translateY(-10px);transition: 1s;}
 
 @media(max-width:850px){
     .desenho{display: none;}
-    .hero-container .black-rede{margin-left: 100px;}
-    .hero-container{max-width:80%;text-align: center;}
-    .hero-texto{margin: 0 auto;text-align: center;text-align: center;}
-    .hero-container .black-rede{position: relative;right: 40px;}
-    .hero-container h2{font-size:28px;}
-    .hero-container h3{padding-right: 0px;font-size:20px;}
+    .hero-container{max-width:80%;text-align: center;margin: 0 auto;}
+    .hero-texto{margin: 0 auto;text-align: left;}
+    .hero-texto h2{font-size:28px;}
+    .hero-texto h3{padding-right: 0px;font-size:20px;}
 }
 /*servico*/
 
