@@ -1,7 +1,6 @@
 *{margin: 0;padding:0;box-sizing: border-box;}
 a{text-decoration: none;}
 li{list-style: none;}
-
 body{font-family: 'Mulish', sans-serif;}
 
 header{width: 100%;padding: 20px 0px;background-color: #000000 ;overflow:hidden;
@@ -10,11 +9,11 @@ position:fixed;z-index: 1;}
 .header-container{max-width: 80%;margin:0 auto;display: flex;align-items: center;}
 .header-container nav ul{display: flex;}
 .header-container nav ul li a{color: #fff;;font-size: 12px;margin-left: 30px;font-weight:bold;text-transform: uppercase;letter-spacing: 2px;}
-.header-container nav ul li a:hover{padding-bottom: 10px;color: #FFBA10;transition: 1s;}
+.header-container nav ul li a:hover{padding-bottom: 10px;color: #FFBA10;transition: 0.2s;}
 .mobile-menu ,  .menu{display: none;}
 
 @media (max-width:750px){
-    header{padding-top: 10px;}
+    header{padding-top: 10px;position: absolute;}
     .header-container{max-width: 100%;flex-direction: column;}
     .menu-flex{display: flex;align-items: center;justify-content: space-between;width: 70%;}
     .desk-menu{display: none;}
@@ -133,7 +132,7 @@ opacity: 0.95;background: #000000;z-index: 1;transition:  width 0.5s, height 0.5
 
 .sobre-text h2::after{content: 'Eu sou um criativo Web Designer e Desenvolvedor';background-color: #FFBA10; width: 20px; height: 20px;color: #000000 ;letter-spacing: 2px;}
 
-.sobre-text p{margin-top: 50px;margin-bottom: 20px;color: #28102D;font-size: 20px;text-align: left;}
+.sobre-text p{margin: 30px 0px;color: #28102D;font-size: 20px;text-align: left;}
 
 .sobre-text a{background-color:#000000; color: #fff;padding: 10px 25px;box-shadow: 0 0 0.5em rgb(46, 46, 46);border-radius: 5px;font-size: 14px;}
 
