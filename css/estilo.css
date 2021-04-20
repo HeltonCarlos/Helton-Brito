@@ -14,8 +14,8 @@ position:fixed;z-index: 1;}
 
 @media (max-width:750px){
     header{padding-top: 10px;position: absolute;}
-    .header-container{max-width: 100%;flex-direction: column;}
-    .menu-flex{display: flex;align-items: center;justify-content: space-between;width: 70%;}
+    .header-container{flex-direction: column;}
+    .menu-flex{display: flex;align-items:center;justify-content: space-between;width: 100%;}
     .desk-menu{display: none;}
     .menu{display: flex;}
     .menu img{height: 20px;}
