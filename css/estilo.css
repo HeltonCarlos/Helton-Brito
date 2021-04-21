@@ -18,7 +18,7 @@ position:fixed;z-index: 1;}
     .menu-flex{display: flex;align-items:center;justify-content: space-between;width: 100%;}
     .desk-menu{display: none;}
     .menu{display: flex;}
-    .menu img{height: 20px;}
+    .menu img{height: 20px;position: relative;left: 10px;}
     .mobile-menu{width: 100vh;background-color:#000000 ;}
     .mobile-menu ul{flex-direction: column;text-align: center;}
     .mobile-menu ul li{padding: 20px 0px;text-align: center;margin-right: 30px;}
